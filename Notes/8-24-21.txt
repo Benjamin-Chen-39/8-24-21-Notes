@@ -1,0 +1,25 @@
+8/24/21
+Command Line notes
+How to create a typescript project
+-npm init (create project)
+-npm install typescript (install typescript)
+-git init (create git repo)
+
+-touch .gitignore (ignores files/paths listed in this text file)
+-echo "node_modules" > .gitignore (echo overwrites)
+node_modules is a folder that contains dependencies, usually want git to ignore it
+
+"code" command opens files/folders in VS code
+"tsc file_name.ts" (complies TS file)
+"rm file_name.ts" (remove)
+npx tsc --target ES6 index.ts (target flag, ES6 is the version of typescript)
+to run the new TS file, node file_name.js
+------------------------
+TypeScript notes/syntax
+How to declare variables:
+const (can technically change value, but usually not)
+let
+var (old-fashioned/out-dated, do not use)
+all variables become var when complied to JS (ES6 does not convert)
+
+
