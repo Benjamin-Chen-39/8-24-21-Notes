@@ -4,6 +4,7 @@ How to create a typescript project
 -npm init (create project)
 -npm install typescript (install typescript)
 -git init (create git repo)
+-git add -u (only adds modified, pre-existing files)
 
 -touch .gitignore (ignores files/paths listed in this text file)
 -echo "node_modules" > .gitignore (echo overwrites)
